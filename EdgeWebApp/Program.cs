@@ -32,6 +32,11 @@ namespace EdgeWebApp
                     // }
                     webBuilder
                         .UseStartup<Startup>();
+                        // webBuilder.UseKestrel(options => options.ListenAnyIP(5001, listenOptions => listenOptions.UseHttps(
+                        // adapterOptions =>
+                        // {
+                        //     adapterOptions.ServerCertificate = new X509Certificate2("/https/EdgeWebApp.pfx", "P@ssw0rd1!");
+                        // })));
                 });
     }
 }

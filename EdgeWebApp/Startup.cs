@@ -32,7 +32,7 @@ namespace EdgeWebApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
-            services.AddDataProtection().PersistKeysToFileSystem(new DirectoryInfo(@"/Users/trilokrangan/Documents/temp"));
+            //services.AddDataProtection().PersistKeysToFileSystem(new DirectoryInfo(@"/Users/trilokrangan/Documents/temp"));
             // .UseCryptographicAlgorithms(
             // new AuthenticatedEncryptorConfiguration()
             // {
